@@ -1,8 +1,7 @@
-Functions should accept generic iterator inputs using IntoIterator.
-Functions should return None for empty input.
-Follow the standard signature pattern (fn foo<I>(values: I) -> Option<f64> where I: IntoIterator<Item = f64>).
-Place exactly one function in each source file.
-Organize functions under the appropriate domain module directory.
-Domain modules should re-export their functions.
-The crate root should re-export public functions for easy access.
-Public APIs should be usable directly from the crate root
+- Functions should return None for empty input.
+- Follow the standard signature pattern (fn foo(arr: &[f64]) -> Option<f64>) 
+- Place exactly one function in each source file.
+- Organize functions under the appropriate domain module directory.
+- Domain modules should re-export their functions.
+- The crate root should re-export public functions for easy access.
+- Public APIs should be usable directly from the crate root
