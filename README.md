@@ -24,10 +24,10 @@ Whether you're writing your first Rust function or your first pull request, this
 
 - [Rust](https://www.rust-lang.org/tools/install) (edition 2024)
 
-### Clone the Repository
+### Fork then Clone the Repository
 
 ```bash
-git clone https://github.com/bsoc-bitbyte/rustats.git
+git clone https://github.com/YOUR-USERNAME/rustats.git
 cd rustats
 ```
 
