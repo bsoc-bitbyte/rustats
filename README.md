@@ -13,6 +13,7 @@ Whether you're writing your first Rust function or your first pull request, this
 | Module | Function | Description |
 |--------|----------|-------------|
 | `primary` | `mean` | Arithmetic mean of a sequence of `f64` values |
+| `primary` | `median` | Median value of a sequence of `f64` values |
 
 > More functions are waiting to be implemented — that's where **you** come in!
 
@@ -137,4 +138,3 @@ Look at [`tests/mean.rs`](tests/mean.rs) for a good example — cover edge cases
 - Create a branch (`git checkout -b BRANCH-NAME`)
 - Commit your changes
 - Push and open a PR
-
