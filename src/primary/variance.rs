@@ -8,7 +8,7 @@
 ///
 /// let values = [1.0, 2.0, 3.0];
 /// let var = variance(&values);
-/// assert_eq!(var, Some(0.6666666666666666));
+/// assert_eq!(var, Some(1.0));
 /// ```
 /// 
 
